@@ -1,0 +1,150 @@
+.TaskManager{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 50%;
+    margin: auto;
+    gap: 20px;
+}
+h1{
+    margin-top: 20px;
+    color: rgb(92, 90, 90);
+}
+.inputcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.inputdiv{
+    display: flex;
+} 
+
+
+
+.btncss{
+    cursor: pointer;
+}
+
+.curvesettinga{
+   border-top-right-radius: 15%;
+   border-bottom-right-radius: 15%;
+   border-top-left-radius: 0%;
+   border-bottom-left-radius: 0%;
+   border: none;
+}
+
+.curvesettingb{
+   border-top-right-radius: 0%;
+   border-bottom-right-radius: 0%;
+   border-top-left-radius: 15%;
+   border-bottom-left-radius: 15%;
+   border: none;
+}
+
+input{
+    outline: none;
+    padding: 5px;
+}
+
+.listcontainers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+}
+
+.innerdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(203, 201, 201);
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(230, 226, 226);
+}
+
+.buttons{
+    display: flex;
+    gap: 5px;
+}
+
+/* Ensure text wraps everywhere it might overflow */
+
+.TaskManager,
+.inputcontainer,
+.inputdiv,
+.innerdiv,
+.buttons,
+button,
+input,
+h1,
+span,
+div {
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+@media (max-width: 768px) {
+  .TaskManager {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .inputcontainer {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .inputdiv {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .inputdiv input {
+    width: 70%;
+  }
+
+  .listcontainers {
+    width: 100%;
+  }
+
+  .innerdiv {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .buttons {
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 480px) {
+  .inputdiv input {
+    width: 100%;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .buttons button {
+    flex: 1 1 30%;
+    min-width: 30px;
+  }
+}
+
+
