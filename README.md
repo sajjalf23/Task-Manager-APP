@@ -25,13 +25,15 @@ A full-stack **Task Manager App** built with **React**, **Express**, **MongoDB**
 ---
 
 🎥 Demo Preview
+
 🔗 [Live Demo](https://task-manager-app-ui-sajjal-fatimas-projects.vercel.app/)
 
 ---
 
 # env
-# MongoDB Connection String
+
+**MongoDB Connection String**
 MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/your-db-name?retryWrites=true&w=majority
-# Server Port
-PORT=5000
+**Server Port**
+PORT=8080
 
