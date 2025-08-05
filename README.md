@@ -19,19 +19,19 @@ A full-stack **Task Manager App** built with **React**, **Express**, **MongoDB**
 
 ## 🛠️ Tech Stack
 
-### Frontend
-- **React**
-- **React Icons**
-- **React Toastify**
-- **CSS Modules** / custom styles
-
-### Backend
-- **Node.js**
-- **Express.js**
-- **MongoDB** (via Mongoose)
+- **React** , **React Icons** , **React Toastify** , **CSS Modules** , **JavaScript** ,
+- **Node.js** , **Express.js** , **MongoDB** (via Mongoose) , **Vercel** ,**Routers**
 
 ---
 
 🎥 Demo Preview
-🔗 [Live Demo]()
+🔗 [Live Demo](https://task-manager-app-ui-sajjal-fatimas-projects.vercel.app/)
+
+---
+
+# env
+# MongoDB Connection String
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/your-db-name?retryWrites=true&w=majority
+# Server Port
+PORT=5000
 
