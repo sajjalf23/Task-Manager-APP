@@ -12,7 +12,7 @@ A full-stack **Task Manager App** built with **React**, **Express**, **MongoDB**
 - 🖥️ **Responsive design** (mobile-friendly)
 - 📡 Backend powered by **Express.js** and **MongoDB**
 - 🔄 Real-time updates with minimal reloads
-- 🔔 Smooth **toast notifications** for all actions
+- 🔔 Smooth **toast notifications** for all actions using **react-toastify**
 - 🌐 Deployed on **Vercel**
 
 ---
@@ -32,5 +32,6 @@ A full-stack **Task Manager App** built with **React**, **Express**, **MongoDB**
 
 ---
 
-cd task-manager-app
+🎥 Demo Preview
+🔗 [Live Demo]()
 
